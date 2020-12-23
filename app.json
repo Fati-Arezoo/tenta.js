@@ -1,32 +1,26 @@
 [
     {
       "id":1,
-      "name":"task1",
-      "email":"rick@gmail.com"
+      "name":"task 1"
     },
     {
       "id":2,
-      "name":"task",
-      "email":"glenn@gmail.com"
+      "name":"task 2"
     },
     {
       "id":3,
-      "name":"Negan",
-      "email":"negan@gmail.com"
+      "name":"task 3"
     },
     {
       "id":4,
-      "name":"Negan",
-      "email":"negan@gmail.com"
+      "name":" task 4"
     },
     {
       "id":5,
-      "name":"Negan",
-      "email":"negan@gmail.com"
+      "name":"task 5 "
     },
     {
       "id":6,
-      "name":"Negan",
-      "email":"negan@gmail.com"
+      "name":"task 6"
     }
   ]
