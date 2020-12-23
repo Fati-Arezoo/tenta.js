@@ -107,52 +107,12 @@ i {
 .fa-trash-alt {
   color: var(--mainRed);
 }
-
-.round {
-  position: relative;
+.fa-check-circle {
+  color: var(--mainGreen);
 }
-
-.round label {
-  margin-top: 0.2rem;
-  background-color: #fff;
-  border: 2px solid #828991;
-  border-radius: 50%;
-  height: 16px;
-  width: 16px;
-  cursor: pointer;
-  left: 0;
-  position: absolute;
-  top: 0;
-}
-
-.round label:after {
-  border: 2px solid green;
-  height: 5px;
-  width: 11px;
-  position: absolute;
-  border-top: none;
-  border-right: none;
-  content: "";
-  top: 2px;
-  left: 0;
-  opacity: 0;
-  transform: rotate(-45deg);
-}
-
-.round input[type="checkbox"] {
-  visibility: hidden;
-}
-
-.round input[type="checkbox"]:checked + label {
-  border: 2px solid green;
-}
-
-.round input[type="checkbox"]:checked + label:after {
-  opacity: 1;
-}
-
 .left-list-item {
   display: flex;
+  align-items: center;
   width: 20%;
 }
 

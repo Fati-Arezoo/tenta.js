@@ -1,11 +1,11 @@
 class Ui {
-  static addTask(info) {
+  static addTask(input) {
     let list = document.querySelector(".list");
     let item = `
     <li class="list-item">
     <div class="left-list-item">
     <i class="far fa-check-circle"></i>
-      <span class="item-text">${info.value}</span>
+      <span class="item-text">${input.value}</span>
     </div>
     <i class="fas fa-trash-alt"></i>
   </li>
