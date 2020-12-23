@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/2d1949d6ba.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>To do list</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="card">
+        <p class="error">Pleas,write a task!</p>
+        <div class="card-content">
+          <!-- Input and button -->
+          <form class="input-from" id="form">
+            <input
+              type="text"
+              id="input"
+              placeholder="Enter todo"
+              class="input-name"
+            />
+            <button id="add-button">
+              <i class="fas fa-plus-circle"></i>
+            </button>
+          </form>
+          <!-- List  -->
+          <ul class="list">
+            <!-- <li class="list-item">
+              <div class="left-list-item">
+                <div class="round">
+                  <input type="checkbox" id="checkbox" />
+                  <label for="checkbox"></label>
+                </div>
+                <span class="item-text"> Item 2 </span>
+              </div>
+              <i class="fas fa-trash-alt"></i>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
