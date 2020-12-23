@@ -162,8 +162,14 @@ i {
 
 .error {
   background: rgb(218, 27, 27);
+  margin-bottom: 3rem;
   height: 3rem;
   display: none;
   align-items: center;
   justify-content: center;
+}
+
+.done {
+  text-decoration: line-through;
+  color: var(--mainRed);
 }
